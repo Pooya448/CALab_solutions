@@ -1,0 +1,12 @@
+[Version]
+Version=9.2
+[Designs]
+half_adder=.\Half_Adder\Half_Adder.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+half_adder=1

@@ -1,0 +1,6 @@
+21
+~E 1 "./../src/ram.vhd" 5 ram
+~A 1 "./../src/ram.vhd" 18 Behavioral
+~E 1 "./../src/TestBench/ram_TB.vhd" 7 ram_tb
+~A 1 "./../src/TestBench/ram_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/ram_TB.vhd" 96 testbench_for_ram

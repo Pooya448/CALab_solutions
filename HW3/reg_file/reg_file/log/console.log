@@ -1,0 +1,240 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'c:/My_Designs/reg_file/reg_file/src/wave1.awc' connected to 'c:/My_Designs/reg_file/reg_file/src/wave.asdb'.
+acom -O3 -work reg_file -2002  $dsn/src/TestBench/register_file_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\reg_file\reg_file\src\TestBench\register_file_TB.vhd
+# Compile Entity "register_file_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
+# Compile Configuration "TESTBENCH_FOR_register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+register_file_tb register_file_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work reg_file -2002  $dsn/src/reg_file.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\reg_file\reg_file\src\reg_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "Behavioral" of Entity "register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6182 kB (elbread=1023 elab2=5065 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\reg_file\reg_file\src\wave.asdb
+#  2:31 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register_file_tb (TB_ARCHITECTURE)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/reg_file/reg_file/src/wave.asdb'.
+# add wave -noreg {/register_file_tb/CLK}
+# add wave -noreg {/register_file_tb/RST}
+# add wave -noreg {/register_file_tb/RegWrite}
+# add wave -noreg {/register_file_tb/WriteReg}
+# add wave -noreg {/register_file_tb/Data}
+# add wave -noreg {/register_file_tb/readreg1}
+# add wave -noreg {/register_file_tb/readreg2}
+# add wave -noreg {/register_file_tb/read1}
+# add wave -noreg {/register_file_tb/read2}
+# 9 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -work reg_file -2002  $dsn/src/reg_file.vhd $dsn/src/TestBench/register_file_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\reg_file\reg_file\src\reg_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "Behavioral" of Entity "register_file"
+# File: c:\My_Designs\reg_file\reg_file\src\TestBench\register_file_TB.vhd
+# Compile Entity "register_file_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
+# Compile Configuration "TESTBENCH_FOR_register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register_file_tb register_file_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6182 kB (elbread=1023 elab2=5065 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\reg_file\reg_file\src\wave.asdb
+#  2:33 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register_file_tb (TB_ARCHITECTURE)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/reg_file/reg_file/src/wave.asdb'.
+# add wave -noreg {/register_file_tb/CLK}
+# add wave -noreg {/register_file_tb/RST}
+# add wave -noreg {/register_file_tb/RegWrite}
+# add wave -noreg {/register_file_tb/WriteReg}
+# add wave -noreg {/register_file_tb/Data}
+# add wave -noreg {/register_file_tb/readreg1}
+# add wave -noreg {/register_file_tb/readreg2}
+# add wave -noreg {/register_file_tb/read1}
+# add wave -noreg {/register_file_tb/read2}
+# 9 signal(s) traced.
+run 200 ns
+# KERNEL: stopped at time: 300 ns
+run 200 ns
+# KERNEL: stopped at time: 500 ns
+run 200 ns
+# KERNEL: stopped at time: 700 ns
+run 200 ns
+# KERNEL: stopped at time: 900 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register_file_tb register_file_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6182 kB (elbread=1023 elab2=5065 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\reg_file\reg_file\src\wave.asdb
+#  2:33 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register_file_tb (TB_ARCHITECTURE)
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 200 ns
+# KERNEL: stopped at time: 400 ns
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/reg_file/reg_file/src/wave.asdb'.
+# add wave -noreg {/register_file_tb/CLK}
+# add wave -noreg {/register_file_tb/RST}
+# add wave -noreg {/register_file_tb/RegWrite}
+# add wave -noreg {/register_file_tb/WriteReg}
+# add wave -noreg {/register_file_tb/Data}
+# add wave -noreg {/register_file_tb/readreg1}
+# add wave -noreg {/register_file_tb/readreg2}
+# add wave -noreg {/register_file_tb/read1}
+# add wave -noreg {/register_file_tb/read2}
+# 9 signal(s) traced.
+run 200 ns
+# KERNEL: stopped at time: 600 ns
+run 200 ns
+# KERNEL: stopped at time: 800 ns
+run 200 ns
+# KERNEL: stopped at time: 1 us
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register_file_tb register_file_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6182 kB (elbread=1023 elab2=5065 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\reg_file\reg_file\src\wave.asdb
+#  2:34 PM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register_file_tb (TB_ARCHITECTURE)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/reg_file/reg_file/src/wave.asdb'.
+# add wave -noreg {/register_file_tb/CLK}
+# add wave -noreg {/register_file_tb/RST}
+# add wave -noreg {/register_file_tb/RegWrite}
+# add wave -noreg {/register_file_tb/WriteReg}
+# add wave -noreg {/register_file_tb/Data}
+# add wave -noreg {/register_file_tb/readreg1}
+# add wave -noreg {/register_file_tb/readreg2}
+# add wave -noreg {/register_file_tb/read1}
+# add wave -noreg {/register_file_tb/read2}
+# 9 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# Adding file c:\My_Designs\reg_file\reg_file\src\wave0.asdb ... Done
+# Adding file c:\My_Designs\reg_file\reg_file\src\wave0.awc ... Done
+# Adding file c:\My_Designs\reg_file\reg_file\src\wave0.awc ... Done
+#  Simulation has been stopped
+# Adding file c:\My_Designs\reg_file\reg_file\src\wave0.awc ... Done

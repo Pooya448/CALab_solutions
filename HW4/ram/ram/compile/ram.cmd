@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\ram\library.cfg"  -j "c:\My_Designs\ram\ram\projlib.cfg"  -d "c:\My_Designs\ram\ram\compile"   -work ram  -O3 -e 100 -2002 "c:\My_Designs\ram\ram\src\ram.vhd" "c:\My_Designs\ram\ram\src\TestBench\ram_TB.vhd"

@@ -1,0 +1,12 @@
+276
+~E 1 "./../src/full_adder.vhd" 35 full_adder
+~A 1 "./../src/full_adder.vhd" 40 Full_Adder_arch
+~E 1 "./../src/full_adder.vhd" 4 full_adder_8_bit
+~A 1 "./../src/full_adder.vhd" 11 Full_Adder_8_arch
+~E 1 "./../src/TestBench/full_adder_8_bit_TB.vhd" 6 full_adder_8_bit_tb
+~A 1 "./../src/TestBench/full_adder_8_bit_TB.vhd" 9 TB_ARCHITECTURE
+~E 1 "./../src/full_adder.vhd" 64 half_adder
+~A 1 "./../src/full_adder.vhd" 68 half_adder_arch
+~E 1 "./../src/full_adder.vhd" 79 or_gate
+~A 1 "./../src/full_adder.vhd" 83 or_gate_arch
+~C 1 "./../src/TestBench/full_adder_8_bit_TB.vhd" 80 testbench_for_full_adder_8_bit

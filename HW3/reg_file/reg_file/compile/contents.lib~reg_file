@@ -1,0 +1,6 @@
+41
+~E 1 "./../src/reg_file.vhd" 5 register_file
+~A 1 "./../src/reg_file.vhd" 20 Behavioral
+~E 1 "./../src/TestBench/register_file_TB.vhd" 7 register_file_tb
+~A 1 "./../src/TestBench/register_file_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/register_file_TB.vhd" 90 testbench_for_register_file

@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\reg_file\library.cfg"  -j "c:\My_Designs\reg_file\reg_file\projlib.cfg"  -d "c:\My_Designs\reg_file\reg_file\compile"   -work reg_file  -O3 -e 100 -2002 "c:\My_Designs\reg_file\reg_file\src\reg_file.vhd" "c:\My_Designs\reg_file\reg_file\src\TestBench\register_file_TB.vhd"

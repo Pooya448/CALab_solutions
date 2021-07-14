@@ -1,0 +1,6 @@
+"c:\My_Designs\cache\Cache\src\Cache.vhd" VHDL Cache 1 0 0 -02
+"c:\My_Designs\cache\Cache\src\Miss_or_hit.vhd" VHDL Cache 1 0 0 -02
+"c:\My_Designs\cache\Cache\src\Tag_valid.vhd" VHDL Cache 1 0 0 -02
+"c:\My_Designs\cache\Cache\src\Data_mem.vhd" VHDL Cache 1 0 0 -02
+"c:\My_Designs\cache\Cache\src\TestBench\cache_TB.vhd" VHDL Cache 1 0 0 -02
+. . 0 0 0

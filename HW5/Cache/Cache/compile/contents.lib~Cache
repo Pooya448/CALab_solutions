@@ -1,0 +1,12 @@
+376
+~E 1 "./../src/Cache.vhd" 5 Cache
+~A 1 "./../src/Cache.vhd" 17 behavioral
+~E 1 "./../src/TestBench/cache_TB.vhd" 7 cache_tb
+~A 1 "./../src/TestBench/cache_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "./../src/Data_mem.vhd" 5 DATA_MEM
+~A 1 "./../src/Data_mem.vhd" 16 behavioral
+~E 1 "./../src/Cache.vhd" 39 MISS_OR_HIT
+~A 1 "./../src/Miss_or_hit.vhd" 16 behavioral
+~E 1 "./../src/Tag_valid.vhd" 5 TAG_VALID
+~A 1 "./../src/Tag_valid.vhd" 18 behavioral
+~C 1 "./../src/TestBench/cache_TB.vhd" 93 testbench_for_cache

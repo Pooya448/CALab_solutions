@@ -1,0 +1,72 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=ram
+
+[Library]
+ram=.\ram\ram.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+ram=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/ram.vhd=-1
+/wave1.asdb=-1
+/wave1.awc=-1
+TestBench/ram_TB.vhd=-1
+TestBench/ram_TB_runtest.do=-1
+
+[Files.Data]
+.\src\ram.vhd=VHDL Source Code
+.\src\wave1.asdb=Accelerated Waveform File
+.\src\wave1.awc=Accelerated Waveform Configuration
+.\src\TestBench\ram_TB.vhd=VHDL Test Bench
+.\src\TestBench\ram_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=ram|Behavioral|0 ram_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=

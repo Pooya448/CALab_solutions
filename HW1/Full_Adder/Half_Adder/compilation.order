@@ -1,0 +1,2 @@
+.\src\full_adder.vhd
+.\src\TestBench\full_adder_8_bit_TB.vhd

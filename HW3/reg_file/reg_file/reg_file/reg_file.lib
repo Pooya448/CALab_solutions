@@ -1,0 +1,46 @@
+timestamp=1608116583176
+
+[register_file]
+A/behavioral=A/Behavioral 21|./../src/reg_file.vhd|20|1*16467
+BinI32/behavioral=3*2650
+I=0*1946
+I/behavioral=I/Behavioral 0*5041
+M=11|0|va7|1608115512765|./../src/reg_file.vhd|0*1372*0xab53a8d61bb899a175c7fd12db5c572349655221|0*1861*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|va7|1608116582993|./../src/reg_file.vhd|0*2115*0x44b97c3be04bb3be5d09dd68c62572dd732bf397|0*4942*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/reg_file.vhd|5
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[register_file_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/register_file_TB.vhd|10|1*19786
+BinI32/tb_architecture=3*4199
+I=0*5647
+I/tb_architecture=I/TB_ARCHITECTURE 0*12330
+M=11|0|va7|1608115901484|./../src/TestBench/register_file_TB.vhd|0*5315*0x3dc2f90a1dc4fefe2fcc9892722a461d8d81e78f|0*5541*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|va7|1608116583067|./../src/TestBench/register_file_TB.vhd|0*10762*0x166789b4bfe69389b7d5f55652f47aafea85073c|0*12205*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/TestBench/register_file_TB.vhd|7
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/tb_architecture=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[testbench_for_register_file]
+Configures=register_file_tb.TB_ARCHITECTURE
+E=1*24441
+I=0*10519
+M=2|0|va7|1608116583073|./../src/TestBench/register_file_TB.vhd|0*10056*0x51bf534bca92e3867502043df0a9cfee79ad2b3e|0*10383*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/TestBench/register_file_TB.vhd|90
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=41
+Version=73
+
+[~MFT]
+0=42|0reg_file.mgf|12330|5210
+1=14|1reg_file.mgf|24441|16467
+3=9|3reg_file.mgf|4199|2650
+
+[~U]
+register_file=11|0*973|
+register_file_tb=11|0*5221|
+testbench_for_register_file=TESTBENCH_FOR_register_file 2||
+

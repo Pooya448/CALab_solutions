@@ -1,0 +1,78 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Cache
+
+[Library]
+Cache=.\Cache\Cache.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Cache=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Cache.vhd=-1
+/Miss_or_hit.vhd=-1
+/Tag_valid.vhd=-1
+/Data_mem.vhd=-1
+/wave1.asdb=-1
+/wave1.awc=-1
+TestBench/cache_TB.vhd=-1
+TestBench/cache_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Cache.vhd=VHDL Source Code
+.\src\Miss_or_hit.vhd=VHDL Source Code
+.\src\Tag_valid.vhd=VHDL Source Code
+.\src\Data_mem.vhd=VHDL Source Code
+.\src\wave1.asdb=Accelerated Waveform File
+.\src\wave1.awc=Accelerated Waveform Configuration
+.\src\TestBench\cache_TB.vhd=VHDL Test Bench
+.\src\TestBench\cache_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=cache_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=
